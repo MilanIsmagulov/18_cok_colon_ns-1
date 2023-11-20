@@ -3,7 +3,8 @@
     overflow-y: auto;
     scroll-snap-align: start;
     padding: 15px;
-    align-items: flex-start;
+
+    align-items: flex-start !important;
     flex-direction: column;
     padding: 10px;
 }
@@ -159,10 +160,9 @@
     color: rgb(255, 113, 117);
 }
 
-.popup_text {
+.images {
     display: flex;
-    align-items: flex-start;
-    font-size: 20px;
+    align-items: center !important;
 }
 
 .popup::-webkit-scrollbar {
@@ -178,6 +178,7 @@
     font-weight: 500;
     text-align: start;
     margin-bottom: 15px;
+    font-size: 25px !important;
 }
 
 

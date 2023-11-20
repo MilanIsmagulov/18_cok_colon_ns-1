@@ -239,6 +239,13 @@ input:disabled {
 }
 
 @media (max-width: 1180px) {
+    .images{
+        margin: 0 !important;
+        align-items: flex-start !important;
+    }
+    .popup_text{
+        height: 80% !important;
+    }
     .step_marker_and_buttons{
         padding: 25px !important;
         margin: 0 !important;

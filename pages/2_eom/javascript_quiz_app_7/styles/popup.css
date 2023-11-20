@@ -343,4 +343,10 @@
     .main_buttons button {
         width: 130px;
     }
+    .step_marker_and_buttons{
+        flex-direction: column;
+    }
+    .step_marker{
+        margin-bottom: 25px !important;
+    }
 }

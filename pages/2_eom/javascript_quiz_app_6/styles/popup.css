@@ -281,3 +281,20 @@ body::-webkit-scrollbar-thumb
     justify-content: space-between;
 }
 
+.images{
+    margin: 0 !important;
+    align-items: center !important;
+}
+
+@media (max-height: 500px){
+    .popup_content{
+        padding-top: 10px !important;
+    }
+    .popup_text{    
+        height: 80% !important;
+    }
+    .popup_text h3{
+        font-size: 20px !important;
+    }
+    
+}

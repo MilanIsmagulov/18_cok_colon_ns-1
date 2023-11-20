@@ -1,5 +1,5 @@
 .popup_text{
-    height: 600px;
+    height: 85% !important;
     overflow-y: auto;
     scroll-snap-align: start;
     padding: 15px;
@@ -118,9 +118,8 @@
 .popup_content {
     background-color: white;
     color: black;
-    min-width: 700px;
-    max-width: 1700px;
-    min-height: 80vh;
+    width: clamp(300px, 80vw, 1800px) !important;
+    height: clamp(300px, 70vh, 1000px) !important;
     border-radius: 25px;
     padding: 25px;
 }
@@ -200,11 +199,7 @@
 
 .theory_eom{
     flex-direction: column;
-    height: 520px;
-    width: 98%;
-    overflow-y: auto;
     margin-right: 25px;
-    
 }
 
 .image_part{
@@ -246,7 +241,7 @@
     align-items: center;
 }
 
-.theory_eom::-webkit-scrollbar-track
+body::-webkit-scrollbar-track
 {   
     border-radius: 10px;
 	background-color: #dadada;
@@ -255,7 +250,7 @@
     width: 25px;
 }
 
-.theory_eom::-webkit-scrollbar
+body::-webkit-scrollbar
 {
     border-radius: 10px;
 	width: 10px;
@@ -264,7 +259,7 @@
     width: 15px;
 }
 
-.theory_eom::-webkit-scrollbar-thumb
+body::-webkit-scrollbar-thumb
 {   
 
 	background-color: rgba(0, 0, 0, .2);
@@ -294,38 +289,73 @@
 }
 
 @media (max-width: 1180px) {
-    .black_header{
-        height: 120px;
-    }
-
-
     .black_header h1{
         width: 50%;
-    }
-
-    .step_marker_and_buttons{
-        display: flex;
-    }
-
-    .theory_eom{
-        height: 400px;
     }
     .content{
         margin-right: 0;
     }
     .popup_text img{
-
         height: 100%;
     }
-    .popup_body{
-        height: 50vh;
+    .theory_eom{
+        margin-right: 0 !important;
     }
-    .popup_content {
-        height: 50vh;
+    .answer_place div {
+        font-size: 20px !important;
     }
-    .popup_text{
-        display: flex;
+    .answer_place span{
+        font-size: 18px !important;
+    }
+    .step_marker_and_buttons{
+        padding: 25px !important;
+    }
+    .questions input{
+        font-size: 15px !important;
+        width: clamp(120px,2vw,180px) !important;
+    }
+}
+
+@media (max-width: 1180px) {
+    .question_part #question {
+        padding: 10px;
+        margin: 10px;
+        margin-top: 10px;
+    }
+    .answer_place{
+        flex-direction: column;
+    }
+    #formula {
         align-items: center;
-        height: 500px;
+        justify-content: center;
+    }
+    .answer_place:first-child img{
+        width: 100%;
+    }
+    .main_buttons button {
+        width: 130px;
+    }
+    .questions input{
+        font-size: 20px !important;
+        width: clamp(180px,2vw,200px) !important;
+    }
+    .step_marker{
+        margin-bottom: 25px;
+    }
+    .step_marker_and_buttons{
+        flex-direction: column;
+    }
+}
+
+
+@media (max-height: 500px){
+    .popup_content{
+        padding-top: 10px !important;
+    }
+    .popup_text{    
+        height: 80% !important;
+    }
+    .popup_text h3{
+        font-size: 20px !important;
     }
 }

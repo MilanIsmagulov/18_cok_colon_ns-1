@@ -66,7 +66,7 @@ body{
 }
 
 .quiz_window p{
-    font-size: 30px;
+    font-size: clamp(25px,2vw,30px);
     padding: 25px;
     color: rgb(255, 114, 118);
     font-weight: 700;
@@ -101,7 +101,7 @@ body{
 .answer_place{
     display: flex;
     align-items: center;
-    height: 200px;
+    min-height: 200px;
     justify-content: space-between;
     border-top: solid 1px #00000050;
 
@@ -118,6 +118,8 @@ body{
     padding: 20px;
     display: flex;
     font-size: 25px;
+    margin-top: 15px;
+    margin-bottom: 15px;
     align-items: flex-start;
     justify-content: flex-start;
     box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.25);
@@ -218,16 +220,8 @@ body{
     'opsz' 20
   }
 
-.bottom_part{
-    position: absolute;
-    bottom: 50px;
-}
-
 .step_marker_and_buttons{
     display: flex;
-    margin-left: 25px;
-    margin-right: 25px;
-    width: 95vw;
     align-items: center;
     justify-content: space-between;
 
@@ -256,28 +250,5 @@ body{
     height: 50px;
     font-size: 50px;
     color: #000;
-}
-
-@media (max-width: 1180px) {
-    .choices_div2{
-        width: 700px;
-    }
-    .question_part #question {
-        padding: 10px;
-        margin: 10px;
-        margin-top: 10px;
-    }
-    .button_part {
-        margin-top: 5px;
-        padding-bottom: 50px;
-    }
-
-    .step_marker_and_buttons {
-        width: 88vw;
-    }
-
-    .main_buttons button {
-        width: 130px;
-    }
 }
 

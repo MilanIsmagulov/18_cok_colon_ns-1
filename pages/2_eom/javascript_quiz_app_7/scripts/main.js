@@ -41,7 +41,7 @@ stepPlaceDescription.innerHTML = '<strong>' + numberOfQuestion + '/' + numberOfQ
 
 console.log('Script is Loaded')
 let checkBtn = document.querySelector('#check_button_1');
-let rightAnswers = ['цилиндрическая обечайка','опоры','днища','штуцера','люк-лаз','насадочные контактные элементы'];
+let rightAnswers = ['цилиндрическая обечайка','днища','штуцера','опоры','люк-лаз','насадочные контактные элементы'];
 checkBtn.addEventListener('click', function(){
     let inputs = document.querySelectorAll('#quiz_part input');
     let i = 0;

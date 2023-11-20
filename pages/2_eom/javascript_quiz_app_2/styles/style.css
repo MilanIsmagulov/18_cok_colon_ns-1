@@ -248,9 +248,12 @@ input:disabled {
 
 .first_paragraph {
     display: flex;
+    padding-left: 35px;
     align-items: center;
 }
-
+.first_paragraph p strong{
+    color: #0070c0;
+}
 .header_image{
     display: flex;
     align-items: center;
@@ -344,7 +347,8 @@ input:disabled {
         margin-right: 0;
     }
     .popup_text img{
-        height: 100%;
+        height: auto !important;
+        width: 100%;
     }
 }
 
