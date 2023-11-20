@@ -1,5 +1,5 @@
 .popup_text{
-    height: 600px;
+    height: 85% !important;
     overflow-y: auto;
     scroll-snap-align: start;
     padding: 15px;
@@ -110,9 +110,8 @@
 .popup_content {
     background-color: white;
     color: black;
-    min-width: 700px;
-    max-width: 1700px;
-    min-height: 80vh;
+    width: clamp(300px, 80vw, 1800px) !important;
+    height: clamp(300px, 70vh, 1000px) !important;
     border-radius: 25px;
     padding: 25px;
 }
@@ -285,21 +284,11 @@
 }
 
 @media (max-width: 1180px) {
-    .black_header{
-        height: 120px;
-    }
-
-
     .black_header h1{
         width: 50%;
     }
-
-    .step_marker_and_buttons{
-        display: flex;
-    }
-
-    .theory_eom{
-        height: 400px;
+    .odt{
+        width: 100% !important;
     }
     .content{
         margin-right: 0;
@@ -308,15 +297,50 @@
 
         height: 100%;
     }
-    .popup_body{
-        height: 50vh;
+    .questions {
+        flex-direction: column;
     }
-    .popup_content {
-        height: 50vh;
+
+    .left_side{
+        margin-bottom: 0 !important;
+        border-bottom: 0 !important;
     }
-    .popup_text{
-        display: flex;
-        align-items: center;
-        height: 500px;
+
+    .answer_place {
+        margin-top: 0 !important;
+    }
+
+    .right_side{
+        border-top: 0;
+        margin-top: 0 !important;
+    }
+
+    .answer_place span {
+        font-size: 18px;
+        font-weight: 600;
+        padding: 25px;
+        margin-right: 25px;
+    }
+    .questions input {
+        height: 70px;
+        padding: 15px;
+        font-size: 15px;
+        border-radius: 15px;
+        width: 150px;
+    }
+    .choices_div2{
+        width: 700px;
+    }
+    .question_part #question {
+        padding: 10px;
+        margin: 10px;
+        margin-top: 10px;
+    }
+    .button_part {
+        margin-top: 5px;
+        padding-bottom: 50px;
+    }
+    .main_buttons button {
+        width: 130px;
     }
 }

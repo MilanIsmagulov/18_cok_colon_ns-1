@@ -30,7 +30,6 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 95px;
     color: white;
     background-color: black;
 }
@@ -43,7 +42,6 @@ body{
     border: solid 2px;
     border-radius: 35px;
     width: 300px;
-    margin-left: 25px;
     transition: all 0.3s;
 }
 
@@ -54,7 +52,7 @@ body{
 }
 
 .content{
-    margin-right: 25px;
+    margin-right: 5px;
     border-radius: 50px;
     background-color: rgb(255, 255, 255);
     height: 84%;
@@ -251,14 +249,13 @@ input:disabled {
 .theory_eom img{
     height: 400px;
     width: auto;
-    margin-left: 35px;
+    margin-left: 3vw !important;
     margin-right: 35px;
     border-radius: 25px;
 }
 
 .theory_eom p{
-    font-size: 20px;
-
+    font-size: clamp(20px,2vw,25px);
 }
 
 .main_image{
@@ -274,21 +271,12 @@ input:disabled {
 }
 
 @media (max-width: 820px) {
-    .black_header{
-        height: 150px;
+    .theory_eom{
+        padding: 25px;
+        flex-direction: column;
     }
-
     .black_header h1{
         width: 70%;
-    }
-
-    .step_marker_and_buttons{
-        display: flex;
-        width: 93vw;
-    }
-
-    .theory_eom{
-        height: 600px;
     }
     .content{
         margin-right: 0;
@@ -299,8 +287,4 @@ input:disabled {
     .second{
         flex-direction: column;
     }
-}
-
-@media (max-width: 1180px) {
-
 }

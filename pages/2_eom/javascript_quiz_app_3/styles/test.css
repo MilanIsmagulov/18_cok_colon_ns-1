@@ -109,7 +109,6 @@ body{
 }
 
 .answers_btn{
-    height: 50vh;
     margin: 35px;
     display: flex;
     justify-content: center;
@@ -231,6 +230,7 @@ body{
 }
 
 .question_text select{
+    width: 100%;
     font-weight: 500;
     font-size: 30px;
     border-radius: 10px;
