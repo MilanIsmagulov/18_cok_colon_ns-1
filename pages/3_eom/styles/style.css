@@ -6,9 +6,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Montserrat' , sans-serif;
-    -webkit-appearance: none !important;
-    -moz-appearance:    none !important;
-    appearance:         none !important;
+    
 }
 
 
@@ -340,6 +338,12 @@ header h1 {
 @media (max-width: 1180px){
     .question_wrap button{
         padding: 0px !important;
+    }
+
+    *{
+        -webkit-appearance: none !important;
+        -moz-appearance:    none !important;
+        appearance:         none !important;
     }
 
     .popup_question p{

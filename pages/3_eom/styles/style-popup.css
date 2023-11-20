@@ -231,25 +231,37 @@ body{
 }
 
 .question_type_0_answers input[type=radio]{
-    outline-color: rgb(255 89 93);
-    background: red;
-    accent-color: rgb(255 89 93);
-    height: 4vh;
-    margin-right: 1vw;
-    margin-left: 2vw;
-    width: 3vw;
+    width: 42px;
+    height: 40px;
+    box-sizing: border-box;
+    appearance: none;
+    background: #ffffff00;
+    margin-right: 15px !important;
+    outline: 0.15vw solid rgb(255 89 93);
+    border: 0.4vw solid white;
+    border-radius: 50vh;
+    margin-left: 3vh;
     pointer-events: none;
 }
 
 .question_type_0_answers input{
-    outline-color: rgb(255 89 93);
-    background: red;
-    accent-color: rgb(255 89 93);
-    height: 4vh;
-    margin-right: 1vw;
-    margin-left: 2vw;
-    width: 3vw;
+    width: 1.8vw;
+    height: 1.8vw;
+    box-sizing: border-box;
+    appearance: none;
+    background: #ffffff00;
+    margin-right: 15px !important;
+    outline: 0.15vw solid rgb(255 89 93);
+    border: 0.4vw solid white;
+    border-radius: 50vh;
+    margin-left: 3vh;
     pointer-events: none;
+}
+
+.question_type_0_answers input:checked{
+    accent-color: red;
+    background-color: red;
+    background-color: rgb(255, 114, 118);
 }
 
 .question_type_1_answers input{
