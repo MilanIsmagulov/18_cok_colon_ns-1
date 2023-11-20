@@ -242,7 +242,7 @@ body{
     border-radius: 100px;
     margin-left: 3vh;
     pointer-events: none;
-    -webkit-border-radius: 2rem
+    -webkit-border-radius: 100rem
 }
 
 .question_type_0_answers input{
@@ -257,7 +257,7 @@ body{
     border-radius: 100px;
     margin-left: 3vh;
     pointer-events: none;
-    -webkit-border-radius: 2rem
+    -webkit-border-radius: 100rem
 }
 
 
@@ -279,6 +279,7 @@ body{
     border-radius: 0px;
     margin-left: 3vh;
     pointer-events: none;
+    -webkit-border-radius: 2rem
 }
 
 .question_type_0_answers p{
