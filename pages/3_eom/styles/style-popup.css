@@ -242,6 +242,7 @@ body{
     border-radius: 100px;
     margin-left: 3vh;
     pointer-events: none;
+    -webkit-border-radius: 2rem
 }
 
 .question_type_0_answers input{
@@ -256,7 +257,10 @@ body{
     border-radius: 100px;
     margin-left: 3vh;
     pointer-events: none;
+    -webkit-border-radius: 2rem
 }
+
+
 
 .question_type_0_answers input:checked{
     accent-color: red;
