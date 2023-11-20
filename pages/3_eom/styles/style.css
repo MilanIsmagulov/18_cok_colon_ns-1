@@ -6,7 +6,11 @@
     margin: 0;
     padding: 0;
     font-family: 'Montserrat' , sans-serif;
+    -webkit-appearance: none !important;
+    -moz-appearance:    none !important;
+    appearance:         none !important;
 }
+
 
 body {
     margin: 0;
@@ -404,6 +408,14 @@ header h1 {
 
     .question_type_4_answer_drop_zone{
         margin: 5px !important;
+    }
+
+    .question_type_5_answers{
+        width: 50% !important; 
+    }
+
+    .question_type_5_dropdown_block{
+        align-items: center;
     }
 
     .custom-dropdown-select{
