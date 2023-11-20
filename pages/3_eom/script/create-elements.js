@@ -692,18 +692,18 @@ function createResult(){
     elChBChD.appendChild(elChBChDChB);
 
     // Подсчет очков. Нет надобности в обычных тестах
-    // let elChBChDChD = document.createElement("div");
-    // elChBChDChD.setAttribute("class", "questions_result_correct");
-    // // let elChBChDChDChB = document.createElement("div");
-    // // let elChBChDChDChBChA = document.createTextNode("Ваш результат:");
-    // // elChBChDChDChB.appendChild(elChBChDChDChBChA);
-    // // elChBChDChD.appendChild(elChBChDChDChB);
-    // // let elChBChDChDChD = document.createElement("div");
-    // // elChBChDChDChD.setAttribute("id", "result_users_correct_answered");
-    // // let elChBChDChDChDChA = document.createTextNode(`${score} очков`);
-    // // elChBChDChDChD.appendChild(elChBChDChDChDChA);
-    // // elChBChDChD.appendChild(elChBChDChDChD);
-    // elChBChD.appendChild(elChBChDChD);
+    let elChBChDChD = document.createElement("div");
+    elChBChDChD.setAttribute("class", "questions_result_correct");
+    let elChBChDChDChB = document.createElement("div");
+    let elChBChDChDChBChA = document.createTextNode("Ваш результат:");
+    elChBChDChDChB.appendChild(elChBChDChDChBChA);
+    elChBChDChD.appendChild(elChBChDChDChB);
+    let elChBChDChDChD = document.createElement("div");
+    elChBChDChDChD.setAttribute("id", "result_users_correct_answered");
+    let elChBChDChDChDChA = document.createTextNode(`${score} очков`);
+    elChBChDChDChD.appendChild(elChBChDChDChDChA);
+    elChBChDChD.appendChild(elChBChDChDChD);
+    elChBChD.appendChild(elChBChDChD);
     
     let elChBChDChF = document.createElement("div");
     elChBChDChF.setAttribute("class", "questions_result_stats");

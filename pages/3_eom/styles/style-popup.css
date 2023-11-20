@@ -239,7 +239,7 @@ body{
     margin-right: 15px !important;
     outline: 0.15vw solid rgb(255 89 93);
     border: 0.4vw solid white;
-    border-radius: 50vh;
+    border-radius: 100px;
     margin-left: 3vh;
     pointer-events: none;
 }
@@ -253,7 +253,7 @@ body{
     margin-right: 15px !important;
     outline: 0.15vw solid rgb(255 89 93);
     border: 0.4vw solid white;
-    border-radius: 50vh;
+    border-radius: 100px;
     margin-left: 3vh;
     pointer-events: none;
 }
@@ -272,7 +272,7 @@ body{
     background: white;
     outline: 0.15vw solid rgb(255 89 93);
     border: 0.4vw solid white;
-    border-radius: 1.2vh;
+    border-radius: 0px;
     margin-left: 3vh;
     pointer-events: none;
 }
