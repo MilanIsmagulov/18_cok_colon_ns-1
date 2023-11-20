@@ -193,7 +193,7 @@ body{
     border-radius: 1vh;
     margin-right: 1.5vw;
     margin-left: 1.5vw;
-    width: 90%;
+    width: 50%;
     height: 100%;
     object-fit: cover;
 }
@@ -612,7 +612,7 @@ input[type='checkbox']:checked {
 
 .question_type_5_dropdown_block{
     display: flex;
-    padding: 3%;
+    
     width: 100%;
 }
 
