@@ -619,6 +619,7 @@ input[type='checkbox']:checked {
     padding: 1vh;
     align-items: center;
     justify-content: center;
+    text-align: center;
     align-content: center;
 }
 
