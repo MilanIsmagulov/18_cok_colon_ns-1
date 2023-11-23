@@ -81,8 +81,6 @@ body{
 .content{
     display: flex;
     flex-direction: column;
-    height: 83vh;
-    overflow-y: auto;
     scroll-snap-align: start;
     padding: 35px;
     margin: 0px 25px 25px 0px;
@@ -95,7 +93,9 @@ body{
 }
 
 .text_content{
-    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+ 
 }
 
 .text_content ul{
@@ -248,12 +248,17 @@ body{
 
 
 .content_img{
-    position: relative;
+    /* position: relative; */
     text-align: center;
     background-color: #ffffff;
     margin: 10px;
     padding: 10px;
     border-radius: 0px;
+}
+
+.wrapper_img {
+    display: flex;
+    text-align: end;
 }
 
 .modal {

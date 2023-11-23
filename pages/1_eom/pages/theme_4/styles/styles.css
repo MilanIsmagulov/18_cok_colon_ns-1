@@ -78,33 +78,37 @@ body{
     margin: 15px;
 }
 
+#first_img {
+    width: 95%;
+}
+
 .content{
     display: flex;
     flex-direction: column;
     height: 83vh;
-    overflow-y: auto;
-    scroll-snap-align: start;
     padding: 35px;
     margin: 0px 25px 25px 0px;
     
 }
 
 .content img{
-    height: 400px;
-
+   
     margin-right: 5px;
     margin-left: 5px;
 }
+
+
 
 .text_content{
     padding: 15px;
 }
 
 .content p{
-    margin: 25px;
+    margin-left: 25px;
     font-size: 30px;
-
+    margin-bottom: 30px;
 }
+
 
 .content p span{
     font-weight: 700;
@@ -119,7 +123,7 @@ body{
 
 .second_part img{
     margin: 5px;
-    height: 400px;
+    min-height: 300px;
 }
 
 .anim_buttons{
@@ -252,27 +256,26 @@ body{
     margin: 10px;
     padding: 10px;
     border-radius: 0px;
-    height: 700px;
 }
 
-#page_4_img_1 {
-    height: 600px;
+#page_4_img_2 {
+    width: 95%;
 }
 
 .first_scheme {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 90%;
     margin: 25px;
 }
 
 #page_4_img_3 {
-    height: 400px;
+    width: 70%;
 }
 
 #page_4_img_4 {
-    height: 350px;
+    width: 95%;
+    min-width: 250px;
 }
 
 .modal {
@@ -402,7 +405,6 @@ body{
 .img_partition img{
     display: flex;
     justify-content: center;
-    height: 800px;
 }
 
 .img_partition a img{
@@ -431,10 +433,13 @@ font-size: 20px;
 .disign_table {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
-    align-items: center;
     justify-content: center;
-    margin: 15px;
+    text-align: center;
+}
+
+#duo_img {
+    width: 80%;
+    max-width: 800px;
 }
 
 @media (max-width: 1445px){
@@ -461,7 +466,6 @@ font-size: 20px;
     .content img{
         margin-left: 0;
         margin-right: 0;
-        height: 300px;
     }
 
     .text_content{
@@ -503,7 +507,7 @@ font-size: 20px;
 @media (max-width: 768px) {
 
     .img_partition img {
-        height: 600px;
+        width: 95%;
     }
 
     .modal-dialog {

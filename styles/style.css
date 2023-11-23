@@ -241,7 +241,7 @@ a{
 
 .mdk{
     margin-left: 75px;
-    width: 200px;
+    width: 110px;
 }
 
 .mdk_text{
@@ -484,7 +484,7 @@ a{
 .popup_content {
     background-color: white;
     color: black;
-    max-width: 700px;
+    max-width: 1000px;
     border-radius: 15px;
     padding: 25px;
 }

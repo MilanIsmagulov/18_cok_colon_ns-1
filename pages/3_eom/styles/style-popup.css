@@ -586,6 +586,7 @@ input[type='checkbox']:checked {
     display: flex;
     align-items: center;
     justify-content: center;
+    text-align: center;
     font-size: .8vw;
     border-radius: 1vh;
     background-color: white;
@@ -606,6 +607,7 @@ input[type='checkbox']:checked {
     flex-wrap: wrap;
     align-content: center;
     height: 100%;
+    text-align: center;
     font-weight: bold;
     font-size: 1.2vw;
 }
