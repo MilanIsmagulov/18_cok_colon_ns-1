@@ -66,7 +66,7 @@ body{
 
 .left_side p{
     font-weight: 600;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .left_side a{
@@ -95,8 +95,12 @@ body{
     padding: 25px;
 }
 
+#f_1_2{
+    display: none;
+}
+
 .right_side img{
-    height: 320px;
+    height: 260px;
 }
 
 .hexagon_menu{
@@ -223,6 +227,12 @@ body{
 }
 
 @media (max-width: 1450px){
+    #f_1_2{
+        display: block;
+    }
+    #f_1_1{
+        display: none;
+    }
     .black_header{
         height: 200px;
     }
